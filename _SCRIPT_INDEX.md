@@ -66,9 +66,7 @@
 - **UntitledMeleeRNG_Exploit.lua** - One-shot kill aura, loot magnet
 
 ## Universal Tools
-- **universal_game_dumper.lua** - Game workspace dumper
 - **universal_hitbox_visualizer.lua** - Hitbox visualization
-- **DexDumper.lua** - Dex explorer utility
 
 ## Hitbox Tools
 - **hit_detection_diagnostic.lua**

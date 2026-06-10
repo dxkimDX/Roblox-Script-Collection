@@ -27,27 +27,27 @@ A growing collection of **open-source scripts** for popular Roblox games. These 
 
 ## Game Scripts
 
-| # | Game | Scripts |
-|---|------|---------|
-| 01 | **Arcade Shooter** | ESP + Silent Aim (v1–v4) |
-| 02 | **Artemis Royale** | Silent Aim + ESP |
-| 03 | **Backflip Brainrot** | Auto-farm, rarity filters, godly tier farming |
-| 04 | **Become Brainrot** | OP auto-farm |
-| 05 | **Brainrot Tycoon** | Auto-collect, auto-upgrade, auto-steal |
-| 06 | **Millionaire Tycoon** | Auto-cash, auto-walk, auto-buy, code redeemer |
-| 07 | **DaBakingGame** | Safe exploit suite with anti-cheat bypass |
-| 08 | **Untitled Melee RNG** | Kill aura, loot magnet, auto-collect, ESP |
-| 09 | **Escape Waves** | Auto-farm |
-| 10 | **Fight School** | Hitbox expansion / visualization |
-| 11 | **Football Duels** | Catch assist / auto-catch |
-| 12 | **Gym / Hoopz** | Auto green (perfect timing) |
-| 13 | **Hack Vault** | OP auto-farm, brainrot farming |
-| 14 | **Job Site** | Ghost type identifier / ESP |
-| 15 | **Jump Escape Brainrots** | Auto-collect with zone detection |
-| 16 | **Lucky Block** | Kick + teleport exploit |
-| 17 | **Tsunami Brainrot** | Auto-collect |
-| 18 | **UF Park** | Catch box / hitbox assist |
-| 19 | **Active Brainrots** | Auto-farm |
+| Icon | # | Game | Scripts |
+|------|---|------|---------|
+|  | 01 | **Arcade Shooter** | ESP + Silent Aim (v1–v4) |
+|  | 02 | **Artemis Royale** | Silent Aim + ESP |
+|  | 03 | **Backflip Brainrot** | Auto-farm, rarity filters, godly tier farming |
+|  | 04 | **Become Brainrot** | OP auto-farm |
+|  | 05 | **Brainrot Tycoon** | Auto-collect, auto-upgrade, auto-steal |
+|  | 06 | **Millionaire Tycoon** | Auto-cash, auto-walk, auto-buy, code redeemer |
+|  | 07 | **DaBakingGame** | Safe exploit suite with anti-cheat bypass |
+|  | 08 | **Untitled Melee RNG** | Kill aura, loot magnet, auto-collect, ESP |
+|  | 09 | **Escape Waves** | Auto-farm |
+|  | 10 | **Fight School** | Hitbox expansion / visualization |
+|  | 11 | **Football Duels** | Catch assist / auto-catch |
+|  | 12 | **Gym / Hoopz** | Auto green (perfect timing) |
+|  | 13 | **Hack Vault** | OP auto-farm, brainrot farming |
+|  | 14 | **Job Site** | Ghost type identifier / ESP |
+|  | 15 | **Jump Escape Brainrots** | Auto-collect with zone detection |
+|  | 16 | **Lucky Block** | Kick + teleport exploit |
+|  | 17 | **Tsunami Brainrot** | Auto-collect |
+|  | 18 | **UF Park** | Catch box / hitbox assist |
+|  | 19 | **Active Brainrots** | Auto-farm |
 
 > **See [`_SCRIPT_INDEX.md`](_SCRIPT_INDEX.md) for the complete list of 40+ supported games.**
 
@@ -57,9 +57,7 @@ A growing collection of **open-source scripts** for popular Roblox games. These 
 
 These scripts work across **any** Roblox game:
 
-- **`universal_game_dumper.lua`** — Dump and inspect the entire workspace hierarchy
 - **`universal_hitbox_visualizer.lua`** — Visualize hitboxes in real-time
-- **`DexDumper.lua`** — Dex explorer / advanced game inspector
 - **Hitbox suite** — 9 specialized hitbox tools for diagnostics, scanning, and expansion testing
 
 ---
