@@ -84,13 +84,10 @@ Roblox-Script-Collection/
 ├── ... (40+ game folders)
 ├── 20_Hitbox_Tools/
 ├── 21_Universal_Tools/
-├── 22_MCP_Infrastructure/      # Setup docs for AI-powered workflows
-├── MCP_Access/               # Game recon templates & docs
 ├── _FOLDER_RULE.txt          # Contribution guidelines
 ├── _SCRIPT_INDEX.md          # Full script catalog
 ├── README.md                 # You are here
-├── brainrot_autofarm.luau    # Standalone autofarm script
-└── exw.lua                   # Universal game loader
+└── brainrot_autofarm.luau    # Standalone autofarm script
 ```
 
 ---

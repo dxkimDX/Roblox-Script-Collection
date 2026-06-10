@@ -80,9 +80,3 @@
 - **hitbox_simple.lua**
 - **hitbox_velocity.lua**
 - **hitbox_visible.lua**
-
-## MCP Infrastructure
-- **MCP_Harness_Loader.lua** - MCP harness loader
-- **START_MCP_SERVER.bat** - MCP server launcher
-- **setup_composio_mcp.py** - Composio MCP setup script
-- **COMPOSIO_SETUP.md** - Setup documentation
