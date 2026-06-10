@@ -92,6 +92,30 @@ Roblox-Script-Collection/
 
 ---
 
+## Support & Updates
+
+- **Updated daily** — New scripts, fixes, and game support are added regularly. Check back often!
+- **Not every script works** — Some scripts are outdated due to game updates. If a script breaks, let me know and I will fix it.
+- **Game requests welcome** — Want a script for a specific game? DM me on Instagram with the game name and I'll add it.
+
+### Contact
+
+<p>
+  <a href="https://www.instagram.com/exwsps?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+    <img src="https://img.shields.io/badge/Instagram-@exwsps-E4405F?logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+</p>
+
+**DM me on Instagram for:**
+- Game requests (what game should I script next?)
+- Bug reports (which scripts are broken?)
+- Feature suggestions
+- Questions about any script
+
+I read every message and will fix broken scripts or add new games based on your feedback!
+
+---
+
 ## Contributing
 
 1. Follow the naming convention: `##_Game_Name`
