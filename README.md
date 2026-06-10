@@ -27,29 +27,53 @@ A growing collection of **open-source scripts** for popular Roblox games. These 
 
 ## Game Scripts
 
-| Icon | # | Game | Scripts |
-|------|---|------|---------|
+| Thumbnail | # | Game | Scripts |
+|-----------|---|------|---------|
 |  | 01 | **Arcade Shooter** | ESP + Silent Aim (v1–v4) |
-|  | 02 | **Artemis Royale** | Silent Aim + ESP |
-|  | 03 | **Backflip Brainrot** | Auto-farm, rarity filters, godly tier farming |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=16605303570" width="40" height="40"> | 02 | **Artemis Royale** | Silent Aim + ESP |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=108344031766098" width="40" height="40"> | 03 | **Backflip Brainrot** | Auto-farm, rarity filters, godly tier farming |
 |  | 04 | **Become Brainrot** | OP auto-farm |
-|  | 05 | **Brainrot Tycoon** | Auto-collect, auto-upgrade, auto-steal |
-|  | 06 | **Millionaire Tycoon** | Auto-cash, auto-walk, auto-buy, code redeemer |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=18940828381" width="40" height="40"> | 05 | **Brainrot Tycoon** | Auto-collect, auto-upgrade, auto-steal |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=6772424226" width="40" height="40"> | 06 | **Millionaire Tycoon** | Auto-cash, auto-walk, auto-buy, code redeemer |
 |  | 07 | **DaBakingGame** | Safe exploit suite with anti-cheat bypass |
-|  | 08 | **Untitled Melee RNG** | Kill aura, loot magnet, auto-collect, ESP |
-|  | 09 | **Escape Waves** | Auto-farm |
-|  | 10 | **Fight School** | Hitbox expansion / visualization |
-|  | 11 | **Football Duels** | Catch assist / auto-catch |
-|  | 12 | **Gym / Hoopz** | Auto green (perfect timing) |
-|  | 13 | **Hack Vault** | OP auto-farm, brainrot farming |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=99248392277037" width="40" height="40"> | 08 | **Untitled Melee RNG** | Kill aura, loot magnet, auto-collect, ESP |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=119579217517090" width="40" height="40"> | 09 | **Escape Waves** | Auto-farm |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=17698425045" width="40" height="40"> | 10 | **Fight School** | Hitbox expansion / visualization |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=7138657319" width="40" height="40"> | 11 | **Football Duels** | Catch assist / auto-catch |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=6229116934" width="40" height="40"> | 12 | **Gym / Hoopz** | Auto green (perfect timing) |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=137069154816703" width="40" height="40"> | 13 | **Hack Vault** | OP auto-farm, brainrot farming |
 |  | 14 | **Job Site** | Ghost type identifier / ESP |
-|  | 15 | **Jump Escape Brainrots** | Auto-collect with zone detection |
-|  | 16 | **Lucky Block** | Kick + teleport exploit |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=91342362792031" width="40" height="40"> | 15 | **Jump Escape Brainrots** | Auto-collect with zone detection |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=662417684" width="40" height="40"> | 16 | **Lucky Block** | Kick + teleport exploit |
 |  | 17 | **Tsunami Brainrot** | Auto-collect |
 |  | 18 | **UF Park** | Catch box / hitbox assist |
 |  | 19 | **Active Brainrots** | Auto-farm |
+|  | 20 | **Hitbox Tools** | Universal hitbox diagnostics & visualization |
+|  | 21 | **Universal Tools** | Cross-game utilities |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=109983668079237" width="40" height="40"> | 23 | **BrainrotSteal** | Auto-steal brainrots |
+|  | 24 | **A Room** | Room-based scripts |
+|  | 25 | **DahAimTrainer** | Aim trainer utilities |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=142823291" width="40" height="40"> | 26 | **Murder Mystery 2** | MM2 utilities |
+|  | 27 | **ViolenceDistrict** | Auto-parry, ESP, teleport |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=89469502395769" width="40" height="40"> | 28 | **KickLuckyBlock** | Kick + brainrot farming |
+|  | 29 | **BrainRock** | Brainrot collection |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=99001115434148" width="40" height="40"> | 30 | **FluxoPVP** | PVP combat scripts |
+|  | 31 | **CaliShootout** | Shootout combat scripts |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=96645548064314" width="40" height="40"> | 32 | **CatchAndTame** | Auto-catch animals |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=3619927884" width="40" height="40"> | 33 | **Motorcycle** | Motorcycle tycoon scripts |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=92728557730774" width="40" height="40"> | 34 | **Phonk Clicker** | Auto-clicker utilities |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=84259959693333" width="40" height="40"> | 35 | **Skate Brainrots** | Skateboard brainrot farming |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=97351810896225" width="40" height="40"> | 36 | **Hitmark** | Hitmarker / aim utilities |
+|  | 38 | **SpeedBypass** | Speed bypass utilities |
+|  | 39 | **AnimeCollector** | Anime collection scripts |
+|  | 40 | **Building My World** | Building utilities |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=120658013219032" width="40" height="40"> | 41 | **NeedohTsunami** | Needoh + tsunami survival |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=147848991" width="40" height="40"> | 42 | **Parkour Ninja** | Parkour combat scripts |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=306964494" width="40" height="40"> | 43 | **Loomian Legacy** | Loomian utilities |
+| <img src="https://www.roblox.com/thumbs/asset.ashx?width=80&height=80&assetId=11378364822" width="40" height="40"> | 44 | **Tales of Tanorio** | Tanorio adventure scripts |
+|  | 45 | **Squad Warfare** | Squad combat scripts |
 
-> **See [`_SCRIPT_INDEX.md`](_SCRIPT_INDEX.md) for the complete list of 40+ supported games.**
+> Games without a thumbnail are either private, custom, or their Place ID hasn't been identified yet. Scripts still work in-game.
 
 ---
 
