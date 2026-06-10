@@ -1,0 +1,22 @@
+FOLDER RULE (auto-created by Cascade):
+==================================================
+ALL new scripts MUST go into the root workspace.
+
+Naming convention:
+    ##_Game_Name
+    Example: 24_My_New_Game
+
+New files added to existing folders are tracked here.
+
+NEW GAME LOADER RULE:
+1. Entry point is the universal loader `exw.lua`
+2. Loader displays a game selection list with custom names and logos
+3. User selects game and clicks "Load" to run the script
+4. You must ALWAYS ask for explicit permission BEFORE registering a new game
+5. If you make a script, you must make a UI for it and ensure all scripts work inside it
+6. MCP ACCESS: This workspace has the Roblox Executor MCP connected
+7. MANDATORY RECONNAISSANCE: Before writing ANY script for a new game, perform full recon
+   and save report to `MCP_Access/recon_[GameName].md`
+8. EXECUTOR SANDBOX: Updates must be physically copied to the executor's workspace folder.
+   Execution: loadstring(readfile("exw.lua"))()
+==================================================
