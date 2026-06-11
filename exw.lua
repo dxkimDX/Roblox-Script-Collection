@@ -90,24 +90,21 @@ local Games = {
     {
         Name = "Rope Bridge for Brainrots",
         PlaceId = 84968446824850,
-        Icon = "rbxassetid://3926305904",
-        Description = "Auto farm highest-income brainrots, return to plot, place in pods, and claim index rewards. Scans all 90+ brainrots, teleports to best, auto-collects via proximity prompt, deposits in empty pods.",
+        Description = "Auto farm highest-income brainrots, return to plot, place in pods, and claim index rewards.",
         LocalPath = "46_RopeBridge_Brainrots/RopeBridge_AutoFarmUI.lua",
         RemoteUrl = BASE_URL .. "/46_RopeBridge_Brainrots/RopeBridge_AutoFarmUI.lua"
     },
     {
         Name = "Building - My World",
         PlaceId = 9856900540,
-        Icon = "rbxthumb://type=GameIcon&id=9856900540&w=150&h=150",
-        Description = "Automated voxel building suite. Contains pre-made generators for mansions, castle keeps, and skyscrapers totaling over 10 million blocks.",
+        Description = "Automated voxel building suite.",
         LocalPath = "40_Building_My_World/BuildingMyWorld.lua",
         RemoteUrl = BASE_URL .. "/40_Building_My_World/BuildingMyWorld.lua"
     },
     {
         Name = "Escape Tsunami for NEEDOH!",
         PlaceId = 120658013219032,
-        Icon = "rbxthumb://type=GameIcon&id=10118092495&w=150&h=150",
-        Description = "Automated needoh collector. Teleports to spawn locations of 'Secret' and 'Mythical' rarity needoh items, collects them, deposits them in your plot slots to generate income, collects accumulated plot cash, and automatically upgrades bag carry capacity.",
+        Description = "Automated needoh collector.",
         LocalPath = "41_NeedohTsunami/NeedohTsunami.lua",
         RemoteUrl = BASE_URL .. "/41_NeedohTsunami/NeedohTsunami.lua"
     }
@@ -266,20 +263,15 @@ local function CreateLauncherUI()
         ScrollList.CanvasSize = UDim2.new(0, 0, 0, listLayout.AbsoluteContentSize.Y + 10)
     end)
     
-    -- RIGHT COLUMN Selection Detail Display
-    local DetailImage = Instance.new("ImageLabel")
-    DetailImage.Size = UDim2.new(1, 0, 0, 140); DetailImage.BackgroundColor3 = Color3.fromRGB(15,15,18)
-    DetailImage.Image = selectedGame.Icon; DetailImage.ScaleType = Enum.ScaleType.Crop; DetailImage.ZIndex = 6; DetailImage.Parent = RightColumn
-    Corner(DetailImage, 10); Stroke(DetailImage, Theme.Border, 1)
-    
+    -- RIGHT COLUMN Selection Detail Display (text only)
     local DetailTitle = Instance.new("TextLabel")
-    DetailTitle.Size = UDim2.new(1, 0, 0, 24); DetailTitle.Position = UDim2.new(0, 0, 0, 154)
+    DetailTitle.Size = UDim2.new(1, 0, 0, 28); DetailTitle.Position = UDim2.new(0, 0, 0, 0)
     DetailTitle.BackgroundTransparency = 1; DetailTitle.Text = selectedGame.Name:upper()
-    DetailTitle.TextColor3 = Theme.Accent; DetailTitle.Font = Enum.Font.GothamBold; DetailTitle.TextSize = 14
+    DetailTitle.TextColor3 = Theme.Accent; DetailTitle.Font = Enum.Font.GothamBold; DetailTitle.TextSize = 16
     DetailTitle.TextXAlignment = Enum.TextXAlignment.Left; DetailTitle.ZIndex = 6; DetailTitle.Parent = RightColumn
     
     local DetailDesc = Instance.new("TextLabel")
-    DetailDesc.Size = UDim2.new(1, 0, 0, 80); DetailDesc.Position = UDim2.new(0, 0, 0, 182)
+    DetailDesc.Size = UDim2.new(1, 0, 0, 80); DetailDesc.Position = UDim2.new(0, 0, 0, 36)
     DetailDesc.BackgroundTransparency = 1; DetailDesc.Text = selectedGame.Description .. "\n\nGame ID: " .. tostring(selectedGame.PlaceId)
     DetailDesc.TextColor3 = Theme.DimText; DetailDesc.Font = Enum.Font.Gotham; DetailDesc.TextSize = 11
     DetailDesc.TextWrapped = true; DetailDesc.TextXAlignment = Enum.TextXAlignment.Left; DetailDesc.TextYAlignment = Enum.TextYAlignment.Top
@@ -293,52 +285,35 @@ local function CreateLauncherUI()
     
     local function UpdateDetails(g)
         selectedGame = g
-        DetailImage.Image = g.Icon
         DetailTitle.Text = g.Name:upper()
         DetailDesc.Text = g.Description .. "\n\nGame ID: " .. tostring(g.PlaceId)
     end
     
-    -- Populate game listing cards
+    -- Populate game listing cards (text only)
     for _, g in ipairs(Games) do
-        local Card = Instance.new("Frame")
-        Card.Size = UDim2.new(0.95, 0, 0, 60); Card.BackgroundColor3 = Theme.BgCard; Card.BorderSizePixel = 0; Card.ZIndex = 6; Card.Parent = ScrollList
-        Corner(Card, 10); local cardStroke = Stroke(Card, Theme.Border, 1)
+        local Card = Instance.new("TextButton")
+        Card.Size = UDim2.new(0.95, 0, 0, 36); Card.BackgroundColor3 = Theme.BgCard
+        Card.BorderSizePixel = 0; Card.ZIndex = 6; Card.Parent = ScrollList
+        Card.Text = g.Name; Card.TextColor3 = Theme.Text
+        Card.Font = Enum.Font.GothamBold; Card.TextSize = 12
+        Card.TextXAlignment = Enum.TextXAlignment.Left
+        Corner(Card, 8); local cardStroke = Stroke(Card, Theme.Border, 1)
         
         local sc = Instance.new("UIScale"); sc.Scale = 1; sc.Parent = Card
         
-        local Img = Instance.new("ImageLabel")
-        Img.Size = UDim2.new(0, 48, 0, 48); Img.Position = UDim2.new(0, 6, 0.5, -24)
-        Img.Image = g.Icon; Img.ScaleType = Enum.ScaleType.Crop; Img.ZIndex = 7; Img.Parent = Card
-        Corner(Img, 8)
-        
-        local Name = Instance.new("TextLabel")
-        Name.Size = UDim2.new(1, -64, 0, 20); Name.Position = UDim2.new(0, 60, 0, 12)
-        Name.BackgroundTransparency = 1; Name.Text = g.Name
-        Name.TextColor3 = Theme.Text; Name.Font = Enum.Font.GothamBold; Name.TextSize = 11
-        Name.TextXAlignment = Enum.TextXAlignment.Left; Name.ZIndex = 7; Name.Parent = Card
-        
-        local SubName = Instance.new("TextLabel")
-        SubName.Size = UDim2.new(1, -64, 0, 16); SubName.Position = UDim2.new(0, 60, 0, 30)
-        SubName.BackgroundTransparency = 1; SubName.Text = "Click to select game"
-        SubName.TextColor3 = Theme.DimText; SubName.Font = Enum.Font.GothamBold; SubName.TextSize = 9
-        SubName.TextXAlignment = Enum.TextXAlignment.Left; SubName.ZIndex = 7; SubName.Parent = Card
-        
-        local Btn = Instance.new("TextButton")
-        Btn.Size = UDim2.new(1, 0, 1, 0); Btn.BackgroundTransparency = 1; Btn.Text = ""; Btn.ZIndex = 10; Btn.Parent = Card
-        
-        Btn.MouseEnter:Connect(function()
-            Tween(sc, {Scale = 1.04}, TI.Fast)
+        Card.MouseEnter:Connect(function()
+            Tween(sc, {Scale = 1.03}, TI.Fast)
             Tween(cardStroke, {Color = Theme.Accent}, TI.Fast)
         end)
-        Btn.MouseLeave:Connect(function()
+        Card.MouseLeave:Connect(function()
             Tween(sc, {Scale = 1.0}, TI.Med)
             Tween(cardStroke, {Color = Theme.Border}, TI.Med)
         end)
         
-        Btn.MouseButton1Click:Connect(function()
-            Tween(sc, {Scale = 0.96}, TI.Fast)
+        Card.MouseButton1Click:Connect(function()
+            Tween(sc, {Scale = 0.97}, TI.Fast)
             task.wait(0.08)
-            Tween(sc, {Scale = 1.04}, TI.Fast)
+            Tween(sc, {Scale = 1.03}, TI.Fast)
             UpdateDetails(g)
         end)
     end
