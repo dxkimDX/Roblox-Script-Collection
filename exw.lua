@@ -90,7 +90,7 @@ local Games = {
     {
         Name = "Rope Bridge for Brainrots",
         PlaceId = 84968446824850,
-        Icon = "rbxthumb://type=GameIcon&id=84968446824850&w=150&h=150",
+        Icon = "rbxassetid://3926305904",
         Description = "Auto farm highest-income brainrots, return to plot, place in pods, and claim index rewards. Scans all 90+ brainrots, teleports to best, auto-collects via proximity prompt, deposits in empty pods.",
         LocalPath = "46_RopeBridge_Brainrots/RopeBridge_AutoFarmUI.lua",
         RemoteUrl = BASE_URL .. "/46_RopeBridge_Brainrots/RopeBridge_AutoFarmUI.lua"
