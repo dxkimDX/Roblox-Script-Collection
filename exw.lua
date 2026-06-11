@@ -82,15 +82,26 @@ end
 
 -- ═════════════════════════════════════════════════════════════════════════
 -- GAMES LIST CONFIGURATION
+-- All RemoteUrls point to dxkimDX repo for loadstring compatibility
 -- ═════════════════════════════════════════════════════════════════════════
+local BASE_URL = "https://raw.githubusercontent.com/dxkimDX/Roblox-Script-Collection/main"
+
 local Games = {
+    {
+        Name = "Rope Bridge for Brainrots",
+        PlaceId = 84968446824850,
+        Icon = "rbxthumb://type=GameIcon&id=84968446824850&w=150&h=150",
+        Description = "Auto farm highest-income brainrots, return to plot, place in pods, and claim index rewards. Scans all 90+ brainrots, teleports to best, auto-collects via proximity prompt, deposits in empty pods.",
+        LocalPath = "46_RopeBridge_Brainrots/RopeBridge_AutoFarmUI.lua",
+        RemoteUrl = BASE_URL .. "/46_RopeBridge_Brainrots/RopeBridge_AutoFarmUI.lua"
+    },
     {
         Name = "Building - My World",
         PlaceId = 9856900540,
         Icon = "rbxthumb://type=GameIcon&id=9856900540&w=150&h=150",
         Description = "Automated voxel building suite. Contains pre-made generators for mansions, castle keeps, and skyscrapers totaling over 10 million blocks.",
         LocalPath = "40_Building_My_World/BuildingMyWorld.lua",
-        RemoteUrl = "https://raw.githubusercontent.com/exwsps/exw-scripts/main/40_Building_My_World/BuildingMyWorld.lua"
+        RemoteUrl = BASE_URL .. "/40_Building_My_World/BuildingMyWorld.lua"
     },
     {
         Name = "Escape Tsunami for NEEDOH!",
@@ -98,7 +109,7 @@ local Games = {
         Icon = "rbxthumb://type=GameIcon&id=10118092495&w=150&h=150",
         Description = "Automated needoh collector. Teleports to spawn locations of 'Secret' and 'Mythical' rarity needoh items, collects them, deposits them in your plot slots to generate income, collects accumulated plot cash, and automatically upgrades bag carry capacity.",
         LocalPath = "41_NeedohTsunami/NeedohTsunami.lua",
-        RemoteUrl = "https://raw.githubusercontent.com/exwsps/exw-scripts/main/41_NeedohTsunami/NeedohTsunami.lua"
+        RemoteUrl = BASE_URL .. "/41_NeedohTsunami/NeedohTsunami.lua"
     }
 }
 
@@ -310,7 +321,7 @@ local function CreateLauncherUI()
         SubName.Size = UDim2.new(1, -64, 0, 16); SubName.Position = UDim2.new(0, 60, 0, 30)
         SubName.BackgroundTransparency = 1; SubName.Text = "Click to select game"
         SubName.TextColor3 = Theme.DimText; SubName.Font = Enum.Font.GothamBold; SubName.TextSize = 9
-        SubName.TextXAlignment = Enum.TextXAlignment.Left; Name.ZIndex = 7; SubName.Parent = Card
+        SubName.TextXAlignment = Enum.TextXAlignment.Left; SubName.ZIndex = 7; SubName.Parent = Card
         
         local Btn = Instance.new("TextButton")
         Btn.Size = UDim2.new(1, 0, 1, 0); Btn.BackgroundTransparency = 1; Btn.Text = ""; Btn.ZIndex = 10; Btn.Parent = Card
